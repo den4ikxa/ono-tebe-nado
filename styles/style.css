@@ -1,8 +1,7 @@
 header  {
-    width: 1340px;
-    margin: 81px auto 76px 285px;
+    margin: 81px 285px 76px 285px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 450px);
 }
 
 header :nth-child(1){
@@ -40,7 +39,6 @@ header :nth-child(3){
 
 li  {
     list-style-type: circle;
-    
 }
 
 .logo  {
@@ -58,8 +56,7 @@ li  {
     font-style: normal;
     font-weight: 400;
     padding-top: 15px;
-    padding-left: 209px;
-    
+    padding-left: 200px;
 }   
 
 
@@ -209,7 +206,6 @@ address  {
     grid-template-columns:repeat(3, 430px);
     grid-gap: 25px 25px; 
     padding: 0;
-    
 }
 
 .lots li  {
@@ -232,8 +228,6 @@ address  {
     text-transform: uppercase;
     margin-left: 41px;
     margin-bottom: 30px ;
-    
-    
 }
 
 
@@ -248,8 +242,6 @@ address  {
     text-decoration-line: underline;
     text-transform: uppercase;
     margin: 50px 40px 30px 40px;
-    
-    
 }
 
 .lot p  {
@@ -261,7 +253,6 @@ address  {
     line-height: 120%; /* 24px */
     margin: auto 40px 48px 40px;
     text-decoration: none;
-    
 }
 
 .lots-link {
@@ -290,9 +281,7 @@ address  {
     font-style: normal; 
     font-weight: 400; 
     line-height: normal; 
-    
 } 
-
 
 .about  {
     width: 1340px;
@@ -311,7 +300,6 @@ address  {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    
 }   
 
 .logo-white  {
@@ -346,14 +334,14 @@ address  {
     padding-left: 15px;
     padding-bottom: 5px;
 }
+
 .second-text{
     margin-left: 15px;
-    
 }
+
 footer  {
     margin: 0px 275px 0px  283px;
     padding: 0px 0px 50px 0px;
-    
     display: flex;
     justify-content: space-between;
 }
@@ -368,8 +356,8 @@ footer  {
     text-align: center;
     padding-right: 190px;
     margin-top: 5px;
-    
     }
+
 .down-contacts  {
     padding-top: 17px;
     color: #000;
@@ -386,13 +374,11 @@ footer  {
 }    
 
 .down-menu  li  {
-    
     list-style-type: none;
 }
 
 .icon  {
     height: 48px;
-    padding-right: px;
     margin-top: 7px;
 }
 
