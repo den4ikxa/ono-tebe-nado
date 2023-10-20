@@ -69,7 +69,7 @@ li  {
 address  {
     
     color: #000;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -340,8 +340,8 @@ address  {
 }
 
 footer  {
-    margin: 0px 275px 0px  283px;
-    padding: 0px 0px 50px 0px;
+    margin: 0px 275px 0px 283px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
 }
