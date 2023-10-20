@@ -193,7 +193,6 @@ address  {
     width:257px;
     color: white;
     margin: 57px 0px auto  auto;    
-    letter-spacing: px;
 }
 
 .lots-menu  {
@@ -321,9 +320,10 @@ address  {
     align-self: center;
     margin:100px 0 100px 15px;
 }
+
 .about-text{
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
