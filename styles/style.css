@@ -1,43 +1,53 @@
 header  {
     width: 1340px;
-    margin:  92px auto 80px;
+    margin: 81px auto 76px 285px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
 }
+
 header :nth-child(1){
     align-self: center;
-    
 }
+
 header :nth-child(2){
     align-self: center;
 }
+
 header :nth-child(3){
     align-self: center;
 }
+
 .list-menu ul{
     display: grid;
     grid-template-columns: 100px 180px 120px;
     padding: 0;
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 17px;
+}
+
+.main-link {
+    text-decoration: none;
+}
+
+.home-page {
+    list-style-type: none;
 }
 
 li  {
     list-style-type: circle;
     
 }
-.list-menu > ul li:first-child{
-    list-style: none; 
-}
+
 .logo  {
     width: 148px;
     height: 105px;
-    margin-left: 151px;
+    margin-left: 146px;
+    margin-bottom: 4px;
 }
 
 .contacts  {
@@ -48,26 +58,28 @@ li  {
     font-style: normal;
     font-weight: 400;
     padding-top: 15px;
-    padding-left: 210px;
-    line-height: 20px;
+    padding-left: 209px;
+    
 }   
 
+
+
 .contacts p {
-    margin-top: 4px;
+    margin-top: 1px;
     line-height: 24px;
 }
 
 address  {
     
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway,sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24.3px; /* 135% */
+    line-height: 26px; /* 135% */
 }
 
-.contacts p  a  {
+.addres-text{
     text-decoration: none;
     color: #000;
 }
@@ -77,11 +89,12 @@ address  {
     opacity: 0.6;
     background: #000;
 }
+
 .cover  {
     background-image:  linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(/images/cover.jpg);
     background-size: cover;
     width: 1440px;
-    margin:auto;
+    margin:auto 0 50px 233px;
     display: grid;
     align-items: center;
 }
@@ -92,7 +105,7 @@ address  {
 }
 
 .you  {
-    margin: 145px 0 0 50px;
+    margin: 144px 0 0 50px;
     text-align: start;
     color: #FFF;
     font-family: Raleway, sans-serif;
@@ -103,11 +116,10 @@ address  {
     letter-spacing: 30px;
     text-transform: uppercase;
 }
+
 .you :nth-child(1)  {
-    
     padding-left: 30px;
 }
-
 
 .need  {
     margin: 13px 26px 0 0;
@@ -118,14 +130,15 @@ address  {
     font-style: normal;
     font-weight: 700;
     line-height: 115%; /* 115px */
-    letter-spacing: 30px;
+    letter-spacing: 28px;
     text-transform: uppercase;
 }
+
 .need :nth-child(1)  {
-    padding-left: 26px;
+    padding-left: 36px;
 }
 
-.it  {
+.it {
     justify-self: end;
     text-align: end;
     color: #FFF;
@@ -136,12 +149,14 @@ address  {
     line-height: 115%; /* 115px */
     text-transform: uppercase;
     letter-spacing: 60px;
+    margin-top: 6px;
 }
 
 .it :nth-child(1) {
     letter-spacing: 25px;
-    margin-right: 0px;
+    padding-left: 0px;
 }
+
 
 .down-cover  {
     padding:50px;
@@ -151,8 +166,6 @@ address  {
     justify-content: flex-end;
     gap: 50px;
 }   
-
-
 
 .text-ayk  {
     margin: 56px auto 0px 374px;
@@ -166,38 +179,37 @@ address  {
     text-transform: uppercase;
     align-self: center;
     word-spacing: 17px;
-    
-    
 }
+
 .bet  {
     border: 1px solid #FFF;
     background: transparent;
     align-self: center;
     text-align: center;
     font-family: Raleway, sans-serif;
-    font-size: 19px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    padding: 15px;
+    padding: 12px 10px 13px;
     width:257px;
     color: white;
-    margin: 60px 0px auto  auto;    
+    margin: 57px 0px auto  auto;    
+    letter-spacing: px;
 }
 
 .lots-menu  {
-    width: 1340px;
-    margin: 180px auto;
+    margin: 178px 285px 10px 285px
 }
 
 .lots  {
-    width: 1340px;
-    margin: auto;
-    display: flex;
-    grid-column-gap: 25px; 
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns:repeat(3, 430px);
+    grid-gap: 25px 25px; 
     padding: 0;
-    justify-content: space-between;
+    
 }
 
 .lots li  {
@@ -206,9 +218,7 @@ address  {
 
 .lot  {
     display: grid;
-    width: 430px;
     height: 450px; 
-    
 }
 
 .text-lots  {
@@ -220,22 +230,26 @@ address  {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin-left: 44px;
+    margin-left: 41px;
+    margin-bottom: 30px ;
+    
+    
 }
 
-.lot h3  {
-    hyphens: manual;
-    position: absolute;
+
+.lot h3  { 
+    align-items: start;
     color: #FFF;
     font-family: Raleway, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%; /* 26.4px */
-    max-width: 20%;
     text-decoration-line: underline;
     text-transform: uppercase;
-    margin: 50px 40px 0 40px;;
+    margin: 50px 40px 30px 40px;
+    
+    
 }
 
 .lot p  {
@@ -245,12 +259,12 @@ address  {
     font-style: normal;
     font-weight: 400;
     line-height: 120%; /* 24px */
-    margin: auto 40px 50px 40px;
+    margin: auto 40px 48px 40px;
     text-decoration: none;
     
 }
 
-.lot p a {
+.lots-link {
     text-decoration: none;
 }
 .lots-one  {
@@ -268,21 +282,21 @@ address  {
     background-size: cover;
 }
 
-.small-text-lots  {
-    padding-left: 37px;
-    padding-top: 29px;
+.small-text-lots  { 
+    padding-left: 41px;
+    color: #000; 
+    font-family: Raleway, sans-serif; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: normal; 
     
-    color: #000;
-    font-family: Raleway, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+} 
+
 
 .about  {
     width: 1340px;
-    margin: 175px auto ;
+    margin: 180px 0 135px 276px;
     display: grid;
     grid-template-columns:repeat(3, 1fr);
 }
@@ -299,11 +313,16 @@ address  {
     align-items: center;
     
 }   
+
 .logo-white  {
     margin: auto;
 }
 
-.about h2  {
+.about-text{ 
+    grid-column: -1/2; 
+} 
+
+.main-thing  {
     color: #000;
     font-family: Raleway, sans-serif;
     font-size: 40px;
@@ -312,34 +331,31 @@ address  {
     line-height: normal;
     text-transform: uppercase;
     align-self: center;
-    margin-left: 6px;
-    
+    margin:100px 0 100px 15px;
 }
-
-
-.low-texts  {
-    grid-column: -1/2;
-    display: grid;
+.about-text{
     color: #000;
-    font-family: Raleway, sans-serif;
+    font-family: Raleway;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    line-height: 23px;
-    grid-row-gap: 30px;
-    margin-left: 10px;
-    margin-top: 3px;
 }
-.low-texts p {
-    margin: 0;
+
+.first-text{
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.second-text{
+    margin-left: 15px;
+    
 }
 footer  {
-    width: 1340px;
-    margin: 0px auto 90px auto;
+    margin: 0px 275px 0px  283px;
+    padding: 0px 0px 50px 0px;
+    
     display: flex;
     justify-content: space-between;
-    
 }
 
 .down-menu  {
@@ -348,10 +364,26 @@ footer  {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
-    margin: 10px 0 0 1px;
+    line-height: 23px;
     text-align: center;
-}
+    padding-right: 190px;
+    margin-top: 5px;
+    
+    }
+.down-contacts  {
+    padding-top: 17px;
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 200px;
+    margin-top: 6px;
+    }
+
+.down-contacts p{
+    margin-top: 0px;
+}    
 
 .down-menu  li  {
     
@@ -360,31 +392,17 @@ footer  {
 
 .icon  {
     height: 48px;
+    padding-right: px;
+    margin-top: 7px;
 }
 
 .icon-group ul  {
-    
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     gap: 50px;
-    margin: 10px 0 5px 11px;
-}
-
-.down-contacts  {
-    max-width: 100%;
-    color: #000;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    padding-top: 10px;
-    line-height: 20px;
 }
 
 .icon-group li  {
     list-style-type: none;
-}
-.down-contacts p  {
-    margin: 0 0 0px;
 }
